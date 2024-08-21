@@ -1,0 +1,107 @@
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    margin: 0;
+      padding: 0;
+      border: none;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: maroon;
+    padding: 15px;
+  }
+  #content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+  #content p:nth-child(1){
+    font-size: larger;
+font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+  button {
+    font-size: medium;
+    font-weight: medium;
+    background-color: transparent;
+    border-width: 0px;
+    color: white;
+    width: 100px;
+    height: 30px
+  }  
+  button:hover{
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    color: maroon;
+  }
+  
+  .home{
+    display: flex;
+    flex-direction: row;
+  }
+  .homeContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 800px;
+    padding-top: 40px;
+    gap: 40px;
+  }
+img{
+  height:500px;
+  border-radius: 15px;
+}
+.menu{
+  max-width: 50%;
+  
+}
+.menu img{
+  max-height: 150px;
+}
+.menu-item{
+display: flex;
+min-height: 150px;
+border-bottom: 1px solid black;
+padding: 15px;
+}
+.menu-detail{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.menu-item p{
+  font-size: large;
+  font-weight: bold;
+  color: maroon;
+}
+.menu-detail div:nth-child(3){
+  color: white;
+  background-color: maroon;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+footer {
+  background-color: maroon;
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

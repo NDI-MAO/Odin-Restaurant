@@ -1,16 +1,23 @@
 {
   "name": "odin-restaurant",
   "version": "1.0.0",
-  "description": "The Odin Project, Assignment to use Webpack a code bundler",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "webpack": "^5.93.0",
-    "webpack-cli": "^5.1.4"
+    "css-loader": "^7.1.2",
+    "csv-loader": "^3.0.5",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "xml-loader": "^1.2.1"
   }
 }
