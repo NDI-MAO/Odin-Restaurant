@@ -8,12 +8,12 @@ const buttons = document.querySelectorAll('nav button');
 
 const buttonActions = [homeButton, menuButton, aboutButton];
 //content.appendChild(buttonActions[0]());
-// Add event listeners to buttons
+
 buttons.forEach((button, index) => {
 
     button.addEventListener('click', () => {
         content.innerHTML = ""; 
-        content.appendChild(buttonActions[index]()); // Load the selected content
+        content.appendChild(buttonActions[index]()); 
     });
 });
 homeButton();

@@ -29,14 +29,11 @@ export default function menuButton() {
         //menuContent.append();
         menuDetail.append(title, recipe, price);
 
-        return menuItem; // Return the created menu item
+        return menuItem; 
     }
 
-    // Create the main menu container
     const menu = document.createElement('div');
-    menu.className = 'menu'; // Optional: Add a class for styling
-
-    // Create and append menu items
+    menu.className = 'menu'; 
     menu.append(
         createMenuItem(pizza1, 'The Margherita', 'BBQ sauce, shredded mozzarella & cheddar cheeses; topped with chicken, red onions, and green peppers.', '$11.99'),
         createMenuItem(pizza2, 'Sweet Chili Diavola', 'Sweet Chili sauce, shredded mozzarella & cheddar cheeses; topped with ham, pineapple, and jalapeños.', '$15.99'),
@@ -44,5 +41,4 @@ export default function menuButton() {
         createMenuItem(pizza4, 'Spicy Mozzarella', 'shredded mozzarella & cheddar cheeses; topped with ham, bacon, sausage, and red onions.', '$9.99')
     );
 
-    menuPage.append(menu); // Append the menu container to the content
-}
+    menuPage.append(menu);
