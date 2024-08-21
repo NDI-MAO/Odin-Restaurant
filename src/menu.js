@@ -7,7 +7,7 @@ export default function menuButton() {
 
     function createMenuItem(imageSrc, titleText, recipeText, priceText) {
         const menuItem = document.createElement('div');
-        menuItem.className = 'menu-item'; // Optional: Add a class for styling
+        menuItem.className = 'menu-item'; 
 
         const img = document.createElement('img');
         img.src = imageSrc;
@@ -38,10 +38,10 @@ export default function menuButton() {
 
     // Create and append menu items
     menu.append(
-        createMenuItem('../resources/pizza1.jpg', 'The Margherita', 'BBQ sauce, shredded mozzarella & cheddar cheeses; topped with chicken, red onions, and green peppers.', '$11.99'),
-        createMenuItem('../resources/pizza2.jpg', 'Sweet Chili Diavola', 'Sweet Chili sauce, shredded mozzarella & cheddar cheeses; topped with ham, pineapple, and jalapeños.', '$15.99'),
-        createMenuItem('../resources/pizza3.jpg', 'Marinana', 'Marinara, shredded mozzarella cheese; topped with all-beef meatballs and fresh spinach.', '$19.99'),
-        createMenuItem('../resources/pizza4.jpg', 'Spicy Mozzarella', 'shredded mozzarella & cheddar cheeses; topped with ham, bacon, sausage, and red onions.', '$9.99')
+        createMenuItem(pizza1, 'The Margherita', 'BBQ sauce, shredded mozzarella & cheddar cheeses; topped with chicken, red onions, and green peppers.', '$11.99'),
+        createMenuItem(pizza2, 'Sweet Chili Diavola', 'Sweet Chili sauce, shredded mozzarella & cheddar cheeses; topped with ham, pineapple, and jalapeños.', '$15.99'),
+        createMenuItem(pizza3, 'Marinana', 'Marinara, shredded mozzarella cheese; topped with all-beef meatballs and fresh spinach.', '$19.99'),
+        createMenuItem(pizza4, 'Spicy Mozzarella', 'shredded mozzarella & cheddar cheeses; topped with ham, bacon, sausage, and red onions.', '$9.99')
     );
 
     menuPage.append(menu); // Append the menu container to the content
