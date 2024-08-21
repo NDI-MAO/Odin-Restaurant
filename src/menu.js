@@ -42,3 +42,4 @@ export default function menuButton() {
     );
 
     menuPage.append(menu);
+}
